@@ -4,6 +4,7 @@
 <div class="container cart">
 
     <h3 class="custom-title"> Cart</h3>
+
       <div class="cart-wrapper">
         @foreach ($products as $product)
         <div class="row">
@@ -21,11 +22,11 @@
             <div class="col-sm-4">
                 <a href="/remove/{{$product->cart_id}}" class="btn btn-warning">Remove</a>
             </div>
-
-        </div>
-              
+        </div>   
         @endforeach          
       </div>
+      <a href="/checkout" class="btn btn-primary">Checkout</a>
+
     
 </div>
 

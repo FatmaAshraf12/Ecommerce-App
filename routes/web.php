@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\Order;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,5 @@ Route::get('/logout', function () {
 
 Route::get('/cart', [ProductController::class,'cartList']);
 Route::get('/remove/{id}', [ProductController::class,'removeItem']);
+Route::get('/checkout', [ProductController::class,'createOrder']);
+Route::post('/orderplace',[ProductController::class,'xx']);
