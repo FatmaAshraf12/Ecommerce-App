@@ -21,5 +21,47 @@
     height: 500px;
     margin-top: 90px;
 }
+
+.carousel-caption {
+    color: #000;
+}
+img.slider-img {
+    height: 400px;
+}
+.container.custom-products {
+    background-color: #d6d6d6;
+    WIDTH: 100%;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.bg-light {
+    background-color: #ffff;
+}
+.container.custom-products2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.trend-item img {
+    width: 200px;
+}
+
+.trend-item {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.trend-item .caption {
+    margin-top: 28px;
+}
+h3.custom-title {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
 </style>
 </html>
