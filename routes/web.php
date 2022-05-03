@@ -19,6 +19,11 @@ use App\Http\Controllers\Order;
 Route::get('/login', function () {
     return view('login');
 });
+
+
+Route::view('/register','register');
+Route::post('/register', [UserController::class,'register']);
+
 Route::post('/login', [UserController::class,'login']);
 Route::get('/', [ProductController::class,'index']);
 Route::get('/detail/{id}', [ProductController::class,'detail']);
