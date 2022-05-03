@@ -31,7 +31,7 @@ $total = ProductController::cartItemCount();
 
 
         @if(Session::has('user'))
-        <li class="nav-item"><a class="nav-link" href="">Cart {{$total}}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/cart">Cart {{$total}}</a></li>
 
             <li class="nav-item">
               <a class="nav-link" href="/logout">Logout</a>

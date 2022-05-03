@@ -72,5 +72,32 @@ h3.custom-title {
 .container.detail-page img {
     height: 300px;
 }
+
+.cart-wrapper a {
+    text-decoration: none;
+}
+
+
+
+
+.cart img {
+    height: 65px;
+    width: 100px;
+    display: inline-block;
+}
+
+.cart .caption {
+    display: inline-block;
+    margin-left: 20px;
+}
+.cart .caption h5 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+}
+
+.container.cart .row {
+    margin: 50px 30px;
+}
 </style>
 </html>
