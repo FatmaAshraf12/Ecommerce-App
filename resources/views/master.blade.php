@@ -68,5 +68,9 @@ h3.custom-title {
 .container.detail-page .caption {
     padding-top: 50px;
 }
+
+.container.detail-page img {
+    height: 300px;
+}
 </style>
 </html>

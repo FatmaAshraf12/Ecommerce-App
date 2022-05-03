@@ -12,7 +12,12 @@
 
             <p>Price : {{$product['price']}} EGP</p>
             <p>Category : {{$product['category']}}</p>
-            <button  class="btn btn-primary">Add to cart</button>
+            <form action="/add_to_cart" method="POST">
+                @csrf
+                <input type="hidden" name="product_id" value={{$product['id']}}>
+                <button  class="btn btn-primary">Add to cart</button>
+
+            </form>
         </div>
     </div>
 
